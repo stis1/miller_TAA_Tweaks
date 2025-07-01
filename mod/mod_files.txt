@@ -12,7 +12,7 @@ add raw/stage/w06a10/w06a10_misc.pac
 add raw/stage/w06a20/w06a20_misc.pac
 add raw/stage/w09a10/w09a10_misc.pac
 add raw/stage/w09a90/w09a90_misc.pac
-add raw/stage/w02a10/w20a10_misc.pac
+add raw/stage/w20a10/w20a10_misc.pac
 add raw/stage/w11b10/w11b10_misc.pac
 add raw/stage/w12b10/w12b10_misc.pac
 add raw/stage/w13b10/w13b10_misc.pac
