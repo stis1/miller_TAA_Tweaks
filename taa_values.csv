@@ -1,2 +1,0 @@
-jitterscale,sharpnesspower,baseweight,velocityVarianceBasedWeightBias,velocityVarianceMin,VelocityVarianceMax,CharaStencilMask,LiteMode
-0.25,0.05,0.175,0.05,0.05,0.35,false,true
