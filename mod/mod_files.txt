@@ -3,13 +3,13 @@ add raw/stage/w01a20/w01a20_misc.pac
 add raw/stage/w02a10/w02a10_misc.pac
 add raw/stage/w02a20/w02a20_misc.pac
 add raw/stage/w03a10/w03a10_misc.pac
-add raw/stage/w03a10/w03a20_misc.pac
+add raw/stage/w03a20/w03a20_misc.pac
 add raw/stage/w04a10/w04a10_misc.pac
-add raw/stage/w04a10/w04a20_misc.pac
+add raw/stage/w04a20/w04a20_misc.pac
 add raw/stage/w05a10/w05a10_misc.pac
-add raw/stage/w05a10/w05a20_misc.pac
+add raw/stage/w05a20/w05a20_misc.pac
 add raw/stage/w06a10/w06a10_misc.pac
-add raw/stage/w06a10/w06a20_misc.pac
+add raw/stage/w06a20/w06a20_misc.pac
 add raw/stage/w09a10/w09a10_misc.pac
 add raw/stage/w09a90/w09a90_misc.pac
 add raw/stage/w02a10/w20a10_misc.pac
@@ -17,4 +17,5 @@ add raw/stage/w11b10/w11b10_misc.pac
 add raw/stage/w12b10/w12b10_misc.pac
 add raw/stage/w13b10/w13b10_misc.pac
 add raw/stage/w14b10/w14b10_misc.pac
+delete raw/script/script_resident.pac
 add mod.ini
