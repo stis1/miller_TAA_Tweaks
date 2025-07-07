@@ -7,8 +7,8 @@
 It seems that retail TAA was configured targeting 4K
 I reconfigured it for 1080p and was targeting near MSAA 2x image
 
-- jitterscale - How much TAA algorithm jitter pixels (1 - retail default, 0.25 - mod)
-- sharpnesspower - Sharpness filter by TAA (not recommended to go higher than default 0.1)
+- jitterscale - How much TAA algorithm jitter pixels (0.25 - mod)
+- sharpnesspower - Sharpness filter by TAA (not recommended to go past default 0.1)
 - baseweight - Regulates how past frames influence new frame (low value for high influence, high value for low influence)
 - velocityVarianceBasedWeightBias - How velocity influence past frame weight (step amount for following 2 params)
 - velocityVarianceMin - Limits minimum weight 
