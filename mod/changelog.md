@@ -1,3 +1,6 @@
+# TAA Tweaks 0.4.1
+- Fixed many things wrong with script, so all params now are set correctly
+
 # TAA Tweaks 0.4
 - New (old) filesystem! Transplanted FxCols for easier workflow and lower size
 - None of RFL's were changed since 0.2

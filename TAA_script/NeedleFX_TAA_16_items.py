@@ -3,14 +3,14 @@ import sys
 import csv
 import os
 
-# TAA parameters and offsets
-TARGET_OFFSETS = [0x0, 0x8, 0xC, 0x10, 0x14, 0x20, 0x24, 0x28, 0x29]  # TARGET_1 to TARGET_9 EXCLUDING 7
+# TAA parameters and offsets (8 parameters)
+TARGET_OFFSETS = [0x0, 0x8, 0xC, 0x10, 0x1C, 0x20, 0x24, 0x25]  # TARGET_1 to TARGET_8
 PARAM_NAMES = ["jitterscale", "sharpnesspower", "baseweight", "velocityVarianceBasedWeightBias",
                "velocityVarianceMin", "VelocityVarianceMax", "CharaStencilMask", "LiteMode"]
 BASE_ADDRESS = 0xEE4
 SLOT_OFFSET = 0x1390
 NUM_SLOTS = 16
-MIN_FILE_SIZE = 0x1347D + 1
+MIN_FILE_SIZE = 0x13479 + 1  # Last TARGET_8 address
 
 def read_csv_values(csv_path):
     """Reads values from CSV."""
@@ -48,7 +48,7 @@ def read_csv_values(csv_path):
         return None
 
 def write_values_to_file(file_path, values):
-    """Writes values to file and verifies."""
+    """Writes values to file and verifies key parameters."""
     try:
         if not os.path.exists(file_path):
             print(f"File {file_path} does not exist!")
@@ -70,11 +70,14 @@ def write_values_to_file(file_path, values):
                     else:  # bool (1 byte)
                         f.write(struct.pack('B', values[i]))
                     f.flush()  # Force write
-                    # Verify write
-                    f.seek(address)
-                    read_val = struct.unpack('<f' if i < 6 else 'B', f.read(4 if i < 6 else 1))[0]
-                    print(f"{file_path}, slot {slot}, {PARAM_NAMES[i]} at {hex(address)}: wrote {values[i]}, read {read_val}")
-                print(f"Slot {slot} in {file_path}: Wrote to {hex(base)}–{hex(base + 0x28)}")
+                    # Verify key parameters
+                    if i in [4, 6, 7]:  # velocityVarianceMin, CharaStencilMask, LiteMode
+                        f.seek(address)
+                        raw_bytes = f.read(4 if i < 6 else 1)
+                        read_val = struct.unpack('<f' if i < 6 else 'B', raw_bytes)[0]
+                        read_hex = raw_bytes.hex() if i < 6 else f"{read_val:02x}"
+                        print(f"{file_path}, slot {slot}, {PARAM_NAMES[i]} at {hex(address)}: wrote {values[i]}, read {read_val} (hex: {read_hex})")
+                print(f"Slot {slot} in {file_path}: Wrote to {hex(base)}–{hex(base + 0x25)}")
     except Exception as e:
         print(f"Error writing to {file_path}: {e}")
 
