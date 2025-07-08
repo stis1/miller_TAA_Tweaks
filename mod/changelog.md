@@ -1,4 +1,7 @@
 # TAA Tweaks 0.4.2
+- Fixed x2
+
+# TAA Tweaks 0.4.1
 - Fixed many things wrong with script, so all params now are set correctly
 
 # TAA Tweaks 0.4
