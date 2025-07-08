@@ -1,3 +1,6 @@
+# TAA Tweaks 0.4.3
+- I HOPE THAT THIS IS THE FINAL FIX
+
 # TAA Tweaks 0.4.2
 - Fixed x2
 
