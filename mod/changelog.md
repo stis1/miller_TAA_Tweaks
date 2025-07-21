@@ -1,3 +1,6 @@
+# TAA Tweaks 0.4.4
+- Tweaked values for clearer image 
+
 # TAA Tweaks 0.4.3
 - I HOPE THAT THIS IS THE FINAL FIX
 
