@@ -1,5 +1,5 @@
 ## All TAA values are stored inside taa_values.csv
-RFL's that are lying here are 0.4.1 version
+RFL's that are lying here are 0.4.4 version
 - To use this:
 1. Open CMD or Terminal in this folder
 2. Type "py NeedleFX_TAA_16_items.py taa_values.csv " and drag-n-drop all your RFL's in it
