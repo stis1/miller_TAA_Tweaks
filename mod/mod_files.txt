@@ -1,4 +1,4 @@
-add raw/script/script_resident.pac
+delete raw/script/script_resident.pac
 delete raw/stage/w01a11/w01a11_misc.pac
 delete raw/stage/w01a20/w01a20_misc.pac
 delete raw/stage/w02a10/w02a10_misc.pac
@@ -18,4 +18,9 @@ delete raw/stage/w11b10/w11b10_misc.pac
 delete raw/stage/w12b10/w12b10_misc.pac
 delete raw/stage/w13b10/w13b10_misc.pac
 delete raw/stage/w14b10/w14b10_misc.pac
+
+add taa/raw/script/script_resident.pac
+add taa_w_rain/raw/script/script_resident.pac
+add config.json
+add Authors.txt
 add mod.ini

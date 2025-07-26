@@ -1,0 +1,41 @@
+{
+   "Groups":[
+      {
+         "Name":"Main",
+         "DisplayName":"Options",
+         "Elements":
+         [
+			{
+               "Name":"IncludeDir0",
+               "DisplayName":"Visuals",
+               "Description":[
+                  "Select your preferable visuals.",
+               ],
+               "Type":"Dir0",
+               "MinValue":null,
+               "MaxValue":null,
+               "DefaultValue":"taa_w_rain"
+            },
+         ]
+      }
+   ],
+   "Enums":{
+      "Dir0":[
+         {
+            "DisplayName":"TAA Tweaks",
+            "Value":"taa",
+            "Description":[
+               "TAA Tweaks for lower resolutions by stis!",
+            ]
+         },
+		 {
+            "DisplayName":"TAA Tweaks + Better Rain",
+            "Value":"taa_w_rain",
+            "Description":[
+               "TAA Tweaks + Better Rain by SlippersInBox!",
+            ]
+         },
+      ],
+   },
+   "IniFile":"mod.ini"
+}

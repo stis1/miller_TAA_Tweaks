@@ -1,3 +1,6 @@
+# VanillaFX+ 0.5
+- Rebranding now that it features Better Rain by SlippersInBox aka ~SiB~ 
+
 # TAA Tweaks 0.4.4
 - Tweaked values for clearer image 
 
