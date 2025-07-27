@@ -21,6 +21,7 @@ delete raw/stage/w14b10/w14b10_misc.pac
 
 add taa/raw/script/script_resident.pac
 add taa_w_rain/raw/script/script_resident.pac
+add taa_w_rain_fogless/raw/script/script_resident.pac
 add config.json
 add Authors.txt
 add mod.ini

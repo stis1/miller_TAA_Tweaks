@@ -28,11 +28,18 @@
                "TAA Tweaks for lower resolutions by stis!",
             ]
          },
-		 {
+		   {
             "DisplayName":"TAA Tweaks + Better Rain",
             "Value":"taa_w_rain",
             "Description":[
-               "TAA Tweaks + Better Rain by SlippersInBox!",
+               "TAA Tweaks + Better Rain 1.5 with new cool fog by SlippersInBox!",
+            ]
+         },
+         {
+            "DisplayName":"TAA Tweaks + Better Rain w/o fog",
+            "Value":"taa_w_rain_fogless",
+            "Description":[
+               "TAA Tweaks + Better Rain 1.5 without fog by SlippersInBox!",
             ]
          },
       ],
