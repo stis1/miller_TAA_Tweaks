@@ -1,3 +1,6 @@
+# VanillaFX+ 0.5.2
+- Enabled CharaStencilMask
+
 # VanillaFX+ 0.5.1
 - Upgraded Better Rain to version 1.5
 - Better Rain 1.5 features: Metal Overlord support, new cool fog and rain adjustments

@@ -1,1 +1,7 @@
 mod/VanillaFX_Plus.7z
+mod/VanillaFX+/Authors.txt
+mod/VanillaFX+/config.json
+mod/VanillaFX+/mod.ini
+mod/VanillaFX+/taa/raw/script/script_resident.pac
+mod/VanillaFX+/taa_w_rain/raw/script/script_resident.pac
+mod/VanillaFX+/taa_w_rain_fogless/raw/script/script_resident.pac
