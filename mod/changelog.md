@@ -1,3 +1,7 @@
+# VanillFX+: 0.6
+- Now features compatibility with Rainy Kingdom Valley by MasonM526 (ORIGINAL MOD IS REQUIRED)
+- Fixed CharaStencilMask with some configurations
+
 # VanillaFX+ 0.5.2
 - Enabled CharaStencilMask
 
