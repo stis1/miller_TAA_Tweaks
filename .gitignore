@@ -5,3 +5,10 @@ mod/VanillaFX+/mod.ini
 mod/VanillaFX+/taa/raw/script/script_resident.pac
 mod/VanillaFX+/taa_w_rain/raw/script/script_resident.pac
 mod/VanillaFX+/taa_w_rain_fogless/raw/script/script_resident.pac
+mod/Pre 0.6.1/Authors.txt
+mod/Pre 0.6.1/config.json
+mod/Pre 0.6.1/mod.ini
+mod/Pre 0.6.1/rKV_comp/raw/script/script_common.pac
+mod/Pre 0.6.1/taa/raw/script/script_resident.pac
+mod/Pre 0.6.1/taa_w_rain/raw/script/script_resident.pac
+mod/Pre 0.6.1/taa_w_rain_fogless/raw/script/script_resident.pac

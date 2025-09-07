@@ -1,3 +1,7 @@
+# VanillaFX+: 0.6.1
+- New DOOM Zone, now it's very evil and scary
+- Little filesystem adjustments
+
 # VanillFX+: 0.6
 - Now features compatibility with Rainy Kingdom Valley by MasonM526 (ORIGINAL MOD IS REQUIRED)
 - Fixed CharaStencilMask with some configurations

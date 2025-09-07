@@ -18,10 +18,21 @@ delete raw/stage/w11b10/w11b10_misc.pac
 delete raw/stage/w12b10/w12b10_misc.pac
 delete raw/stage/w13b10/w13b10_misc.pac
 delete raw/stage/w14b10/w14b10_misc.pac
+delete rKV_comp/script/script_common.pac
+delete taa/raw/script/script_resident.pac
+delete taa_w_rain/raw/script/script_resident.pac
+delete taa_w_rain_fogless/raw/script/script_resident.pac
+delete /taa_w_rain
+delete /taa_w_rain_fogless
+delete /taa
+delete /rKV_comp
 
-add taa/raw/script/script_resident.pac
-add taa_w_rain/raw/script/script_resident.pac
-add taa_w_rain_fogless/raw/script/script_resident.pac
+add fx_plus/doomdoom/raw/text/text_RichPresence.pac
+add fx_plus/taa/raw/script/script_resident.pac
+add fx_plus/taa_w_rain/raw/script/script_resident.pac
+add fx_plus/taa_w_rain_fogless/raw/script/script_resident.pac
+add comp/Rainy_KV/raw/script/script_common.pac
+
 add config.json
 add Authors.txt
 add mod.ini
