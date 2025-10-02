@@ -35,7 +35,7 @@ delete comp/Rainy_KV/raw/script/script_common.pac
 add fx_plus/base/raw/hedgehog/level/master.levels
 add fx_plus/taa/raw/stage/fx_plus_base.pac
 add fx_plus/taa_w_rain/raw/stage/fx_plus_base.pac
-add fx_plus/taa_w_rainfogless/raw/stage/fx_plus_base.pac
+add fx_plus/taa_w_rain_fogless/raw/stage/fx_plus_base.pac
 add fx_plus/doom/raw/stage/fx_plus_doom.pac
 
 add comp/RKV/raw/stage/fx_plus_comp.pac

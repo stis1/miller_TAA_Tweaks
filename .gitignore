@@ -12,3 +12,12 @@ mod/Pre 0.6.1/rKV_comp/raw/script/script_common.pac
 mod/Pre 0.6.1/taa/raw/script/script_resident.pac
 mod/Pre 0.6.1/taa_w_rain/raw/script/script_resident.pac
 mod/Pre 0.6.1/taa_w_rain_fogless/raw/script/script_resident.pac
+mod/VanillaFX+.7z
+mod/VanillaFX+/comp/RKV/raw/stage/fx_plus_comp.pac
+mod/VanillaFX+/dummy/raw/stage/fx_plus_comp.pac
+mod/VanillaFX+/dummy/raw/stage/fx_plus_doom.pac
+mod/VanillaFX+/fx_plus/base/raw/hedgehog/level/master.levels
+mod/VanillaFX+/fx_plus/doom/raw/stage/fx_plus_doom.pac
+mod/VanillaFX+/fx_plus/taa/raw/stage/fx_plus_base.pac
+mod/VanillaFX+/fx_plus/taa_w_rain/raw/stage/fx_plus_base.pac
+mod/VanillaFX+/fx_plus/taa_w_rain_fogless/raw/stage/fx_plus_base.pac
