@@ -1,4 +1,4 @@
-# VanillaFX+: 0.6.2
+# VanillaFX+: 0.6.3
 - Re-aranged filesystem, all files will now load in correct order everytime
 - WARNING! VanillaFX+ starting from 0.6.2 is incompatible with mods which edit Master Level Table (e.g Eternal Highway) until mod loader will allow editing master level in runtime 
 
