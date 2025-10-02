@@ -1,3 +1,7 @@
+# VanillaFX+: 0.6.2
+- Re-aranged filesystem, all files will now load in correct order everytime
+- WARNING! VanillaFX+ starting from 0.6.2 is incompatible with mods which edit Master Level Table (e.g Eternal Highway) until mod loader will allow editing master level in runtime 
+
 # VanillaFX+: 0.6.1
 - New DOOM Zone, now it's very evil and scary
 - Little filesystem adjustments
@@ -18,12 +22,6 @@
 
 # TAA Tweaks 0.4.4
 - Tweaked values for clearer image 
-
-# TAA Tweaks 0.4.3
-- I HOPE THAT THIS IS THE FINAL FIX
-
-# TAA Tweaks 0.4.2
-- Fixed x2
 
 # TAA Tweaks 0.4.1
 - Fixed many things wrong with script, so all params now are set correctly

@@ -6,37 +6,37 @@
          "Elements":
          [
 			   {
-               "Name":"IncludeDir0",
+               "Name":"IncludeDir1",
                "DisplayName":"Visuals",
                "Description":["Select your preferable visuals."],
-               "Type":"Dir0",
+               "Type":"Dir1",
                "MinValue":null,
                "MaxValue":null,
                "DefaultValue":"fx_plus/taa_w_rain"
             },
             {
-               "Name":"IncludeDir1",
+               "Name":"IncludeDir2",
                "DisplayName":"Compatibility",
-               "Description":["Merge TAA Tweaks with other visual mods?"],
-               "Type":"Dir1",
+               "Description":["Merge VanillaFX+ with other visual mods?"],
+               "Type":"Dir2",
                "MinValue":null,
                "MaxValue":null,
                "DefaultValue":"dummy"
             },
             {
-               "Name":"IncludeDir2",
+               "Name":"IncludeDir3",
                "DisplayName":"DOOM",
-               "Description":["Doom Zone switch"],
-               "Type":"Dir2",
+               "Description":["Enable Ultra Evil Doom Zone?"],
+               "Type":"Dir3",
                "MinValue":null,
                "MaxValue":null,
-               "DefaultValue":"fx_plus/doomdoom"
+               "DefaultValue":"fx_plus/doom"
             }
          ]
       }
    ],
    "Enums":{
-      "Dir0":[
+      "Dir1":[
          {
             "DisplayName":"TAA Tweaks",
             "Value":"fx_plus/taa",
@@ -59,7 +59,7 @@
             ]
          }
       ],
-      "Dir1":[
+      "Dir2":[
          {
             "DisplayName":"None",
             "Value":"dummy",
@@ -67,17 +67,17 @@
          },
          {
             "DisplayName":"Rainy Kingdom Valley by MasonM526",
-            "Value":"comp/Rainy_KV",
+            "Value":"comp/RKV",
             "Description":["Applies TAA Tweaks for Rainy Kingdom Valley.
 YOU HAVE TO INSTALL ORIGINAL MOD IN ORDER TO THIS TO WORK
 You can find the link to original mod in Authors.txt"]
          }
       ],
-      "Dir2":[
+      "Dir3":[
          {
             "DisplayName":"Yes",
-            "Value":"fx_plus/doomdoom",
-            "Description":["Enable Ultra Evil Doom Zone"]
+            "Value":"fx_plus/doom",
+            "Description":["Ultra Evil Doom Zone"]
          },
          {
             "DisplayName":"No",

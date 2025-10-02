@@ -26,12 +26,22 @@ delete /taa_w_rain
 delete /taa_w_rain_fogless
 delete /taa
 delete /rKV_comp
+delete fx_plus/doomdoom/raw/text/text_RichPresence.pac
+delete fx_plus/taa/raw/script/script_resident.pac
+delete fx_plus/taa_w_rain/raw/script/script_resident.pac
+delete fx_plus/taa_w_rain_fogless/raw/script/script_resident.pac
+delete comp/Rainy_KV/raw/script/script_common.pac
 
-add fx_plus/doomdoom/raw/text/text_RichPresence.pac
-add fx_plus/taa/raw/script/script_resident.pac
-add fx_plus/taa_w_rain/raw/script/script_resident.pac
-add fx_plus/taa_w_rain_fogless/raw/script/script_resident.pac
-add comp/Rainy_KV/raw/script/script_common.pac
+add fx_plus/base/raw/hedgehog/level/master.levels
+add fx_plus/taa/stage/fx_plus_base.pac
+add fx_plus/taa_w_rain/stage/fx_plus_base.pac
+add fx_plus/taa_w_rainfogless/stage/fx_plus_base.pac
+add fx_plus/doom/raw/stage/fx_plus_doom.pac
+
+add comp/RKV/raw/stage/fx_plus_comp.pac
+
+add dummy/raw/stage/fx_plus_comp.pac
+add dummy/raw/stage/fx_plus_doom.pac
 
 add config.json
 add Authors.txt
