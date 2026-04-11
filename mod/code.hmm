@@ -1,0 +1,22 @@
+Patch "TAA Tweaks" by "stis"
+{
+    WriteAsmHook
+    (
+        $@"
+            mov dword ptr [r8+ 0x04], 0x3EB33333 ; jitterScale 0.35f
+            mov dword ptr [r8+ 0x0C], 0x3D4CCCCD ; sharpnessPower 0.05f
+            mov dword ptr [r8+ 0x10], 0x3E333333 ; baseWeight 0.15f
+            mov dword ptr [r8+ 0x14], 0x3D4CCCCD ; velocityVarianceBasedWeight 0.05f
+            mov dword ptr [r8+ 0x20], 0x3E4CCCCD ; velocityVarianceMin 0.05f
+            mov dword ptr [r8+ 0x24], 0x3F0CCCCD ; velocityVarianceMax 0.2f
+            mov byte ptr [r8+ 0x29], 1 ; enable LiteMode 
+        ",
+        ScanSignature
+        (
+            "\x45\x85\xC9\x79\x22\x41\x0F\x28\x00\x0F\x29\x01\x41\x0F\x28\x48\x10\x0F\x29\x49\x10\x41\x0F\x28\x40\x20\x0F\x29\x41\x20\x41\x0F\x28\x48\x30\x0F\x29\x49\x30",
+            "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        ),
+        HookBehavior.After
+    );
+}
+

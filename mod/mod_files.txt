@@ -31,17 +31,22 @@ delete fx_plus/taa/raw/script/script_resident.pac
 delete fx_plus/taa_w_rain/raw/script/script_resident.pac
 delete fx_plus/taa_w_rain_fogless/raw/script/script_resident.pac
 delete comp/Rainy_KV/raw/script/script_common.pac
+delete fx_plus/base/raw/hedgehog/level/master.levels
+delete fx_plus/taa/raw/stage/fx_plus_base.pac
+delete fx_plus/taa_w_rain/raw/stage/fx_plus_base.pac
+delete fx_plus/taa_w_rain_fogless/raw/stage/fx_plus_base.pac
+delete fx_plus/doom/raw/stage/fx_plus_doom.pac
 
-add fx_plus/base/raw/hedgehog/level/master.levels
-add fx_plus/taa/raw/stage/fx_plus_base.pac
-add fx_plus/taa_w_rain/raw/stage/fx_plus_base.pac
-add fx_plus/taa_w_rain_fogless/raw/stage/fx_plus_base.pac
-add fx_plus/doom/raw/stage/fx_plus_doom.pac
+delete fx_plus/base/raw/hedgehog/level/master.levels
+delete fx_plus/taa/raw/stage/fx_plus_base.pac
+delete fx_plus/taa_w_rain/raw/stage/fx_plus_base.pac
+delete fx_plus/taa_w_rain_fogless/raw/stage/fx_plus_base.pac
+delete fx_plus/doom/raw/stage/fx_plus_doom.pac
+delete comp/RKV/raw/stage/fx_plus_comp.pac
+delete dummy/raw/stage/fx_plus_comp.pac
+delete dummy/raw/stage/fx_plus_doom.pac
 
-add comp/RKV/raw/stage/fx_plus_comp.pac
-
-add dummy/raw/stage/fx_plus_comp.pac
-add dummy/raw/stage/fx_plus_doom.pac
+add doom/raw/stage/w09a10/w09a10_misc.pac
 
 add config.json
 add Authors.txt

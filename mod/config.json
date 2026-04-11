@@ -3,85 +3,29 @@
       {
          "Name":"Main",
          "DisplayName":"Options",
-         "Elements":
-         [
-			   {
-               "Name":"IncludeDir1",
-               "DisplayName":"Visuals",
-               "Description":["Select your preferable visuals."],
-               "Type":"Dir1",
-               "MinValue":null,
-               "MaxValue":null,
-               "DefaultValue":"fx_plus/taa_w_rain"
-            },
-            {
-               "Name":"IncludeDir2",
-               "DisplayName":"Compatibility",
-               "Description":["Merge VanillaFX+ with other visual mods?"],
-               "Type":"Dir2",
-               "MinValue":null,
-               "MaxValue":null,
-               "DefaultValue":"dummy"
-            },
-            {
-               "Name":"IncludeDir3",
-               "DisplayName":"DOOM",
-               "Description":["Enable Ultra Evil Doom Zone?"],
-               "Type":"Dir3",
-               "MinValue":null,
-               "MaxValue":null,
-               "DefaultValue":"fx_plus/doom"
-            }
-         ]
+         "Elements": [
+         {
+            "Name": "IncludeDir0",
+            "DisplayName": "Visuals",
+            "Description": [ "Enable Ultra Evil Doom Zone?" ],
+            "Type": "Dir0",
+            "MinValue": null,
+            "MaxValue": null,
+            "DefaultValue": "doom/"
+         }
+        ]
       }
    ],
    "Enums":{
-      "Dir1":[
-         {
-            "DisplayName":"TAA Tweaks",
-            "Value":"fx_plus/taa",
-            "Description":[
-               "TAA Tweaks for lower resolutions by stis!"
-            ]
-         },
-		   {
-            "DisplayName":"TAA Tweaks + Better Rain",
-            "Value":"fx_plus/taa_w_rain",
-            "Description":[
-               "TAA Tweaks + Better Rain 1.5 with new cool fog by SlippersInBox!"
-            ]
-         },
-         {
-            "DisplayName":"TAA Tweaks + Better Rain w/o fog",
-            "Value":"fx_plus/taa_w_rain_fogless",
-            "Description":[
-               "TAA Tweaks + Better Rain 1.5 without fog by SlippersInBox!"
-            ]
-         }
-      ],
-      "Dir2":[
-         {
-            "DisplayName":"None",
-            "Value":"dummy",
-            "Description":["No other visual mods."]
-         },
-         {
-            "DisplayName":"Rainy Kingdom Valley by MasonM526",
-            "Value":"comp/RKV",
-            "Description":["Applies TAA Tweaks for Rainy Kingdom Valley.
-YOU HAVE TO INSTALL ORIGINAL MOD IN ORDER TO THIS TO WORK
-You can find the link to original mod in Authors.txt"]
-         }
-      ],
-      "Dir3":[
+      "Dir0":[
          {
             "DisplayName":"Yes",
-            "Value":"fx_plus/doom",
+            "Value":"doom/",
             "Description":["Ultra Evil Doom Zone"]
          },
          {
             "DisplayName":"No",
-            "Value":"dummy",
+            "Value":"dummy/",
             "Description":["Regular Doom Zone"]
          }
       ]

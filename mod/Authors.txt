@@ -1,8 +1,8 @@
-stis: https://gamebanana.com/members/3206651
+stis: https://github.com/stis1 | https://gamebanana.com/members/3206651
 	TAA Tweaks and Ultra Evil DOOM Zone
 
 SlippersInBox aka ~SiB~: https://gamebanana.com/members/2486461
-	Original Better Rain mod: https://gamebanana.com/mods/609304
-
-MasonM526: https://gamebanana.com/members/1744391
-	Original Rainy Kingdom Valley mod: https://gamebanana.com/mods/551699
+	Check out Better Rain mod: https://gamebanana.com/mods/609304
+	
+Hyper: https://github.com/hyperbx | https://gamebanana.com/members/1673715
+	Skeleton for TAA Tweaks code and technical help
